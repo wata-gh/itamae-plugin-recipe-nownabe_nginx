@@ -3,7 +3,7 @@ require "rspec/core/rake_task"
 require "tempfile"
 require "net/ssh"
 
-VAGRANT_HOSTNAME = "centos7_init-spec-centos7"
+VAGRANT_HOSTNAME = "nginx-spec-centos7"
 
 desc "Run provisining vagrant and serverspec tests"
 task integration: ["integration:provision", "integration:spec"]

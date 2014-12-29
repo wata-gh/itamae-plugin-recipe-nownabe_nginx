@@ -1,7 +1,7 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-VAGRANT_HOSTNAME = "centos7_init-spec-centos7"
+VAGRANT_HOSTNAME = "nginx-spec-centos7"
 
 Vagrant.configure(2) do |config|
   config.vm.define VAGRANT_HOSTNAME do |c|
